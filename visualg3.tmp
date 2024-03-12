@@ -1,0 +1,28 @@
+// Disciplina   : [Linguagem e Lógica de Programação]
+// Professor   : Antonio Carlos Nicolodi
+// Descrição   : Aqui você descreve o que o programa faz! (função)
+// Autor(a)    : Nome do(a) aluno(a)
+// Data atual  : 12/03/2024
+Var
+// Seção de Declarações das variáveis
+media: Real
+resultado: Caractere
+
+Inicio
+media<-5
+   SE(media < 5) entao
+      resultado := "i"
+   |senao
+   | se(media < 7) entao
+   |      resultado := "r"
+   |   |senao
+   |   |   se(media < 9) entao
+   |   |      resultado := "b"
+   |   |   |senao
+   |   |   |   resultado := "mb"
+   |   |   |fimse
+   |   fimse
+   fimse
+   
+   ESCREVA("a sua função final foi", RESULTADO)
+Fimalgoritmo
